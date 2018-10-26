@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require_relative '../app/models/machine'
+require_relative '../app/models/owner'
+require_relative '../app/models/snack_machine'
+require_relative '../app/models/snack'
