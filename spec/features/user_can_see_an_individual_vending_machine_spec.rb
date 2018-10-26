@@ -17,8 +17,8 @@ feature 'When a user visits a vending machine show page' do
     snack_2 = silver.snacks.create(name: 'Doritos', price: 2)
     snack_3 = silver.snacks.create(name: 'monster', price: 3)
 
-    visit machine_path(silver.owner_id)
-    save_and_open_page
+    visit machine_path(silver.id)
+    # save_and_open_page
 
 
   end
